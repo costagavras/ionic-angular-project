@@ -40,7 +40,7 @@ export class RecipesService {
     this.recipes = this.recipes.filter(recipe => {
       return recipe.id !== recipeId;
     });
-    this.recipesChanged.next(this.recipes);
+    // this.recipesChanged.next(this.recipes);
   }
 
 }
